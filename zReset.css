@@ -1,0 +1,24 @@
+html, body, h1, h2, h3, ul, p, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: '微软雅黑';
+  color: #222;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
